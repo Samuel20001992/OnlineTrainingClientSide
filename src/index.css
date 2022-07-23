@@ -11,3 +11,42 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+a {
+ margin: 5px;
+  text-decoration: none;
+  display: inline;
+ 
+}
+
+.bg-image{
+  background-image: url('https: //encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHxwVVOAkyVhAsMkAGIcRE3YnLFOYE03PFtw&usqp=CAU');
+}
+
+.pos{
+  opacity: 1;
+  background-color: white;
+}
+
+.topic :hover{
+  color:white;
+  font-weight: bold;
+  background-color: limegreen;
+  width: 100%;
+}
+
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
